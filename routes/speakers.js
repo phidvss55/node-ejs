@@ -10,8 +10,8 @@ module.exports = (params) => {
     return res.json(speakers);
   });
 
+  // eslint-disable-next-line
   router.get('/:shortname', (req, res) => {
-    console.log('GET /:shortname');
     return res.send(`Detail page of ${req.params.shortname}`);
   });
 

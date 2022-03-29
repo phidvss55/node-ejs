@@ -10,8 +10,8 @@ module.exports = (params) => {
     return res.json(feedbacks);
   });
 
+  // eslint-disable-next-line
   router.post('/', (req, res) => {
-    console.log('asefd');
     return res.send('Feedback form posted');
   });
 

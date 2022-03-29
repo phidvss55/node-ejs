@@ -10,7 +10,6 @@ module.exports = (params) => {
       req.session.visitcount = 0;
     }
     req.session.visitcount += 1;
-    console.log(`Number of visit: ${req.session.visitcount}`);
 
     res.render('layouts/index', { pageTitle: 'Welcome', template: 'index' });
   });
