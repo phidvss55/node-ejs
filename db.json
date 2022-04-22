@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "4285ff5f-e1af-4d9d-ae80-e0b0d7e80e4f",
+      "title": "API testing rocks!"
+    },
+    {
+      "id": "01019ea3-5921-4dd7-9c57-f43d0f16f42a",
+      "title": "API testing rocks!"
+    },
+    {
+      "id": "e159bdbf-7fbc-4172-9a78-b38d7532797b",
+      "title": "API testing rocks!"
+    },
+    {
+      "id": "81516359-0ad1-4ae7-9c19-1c2cd6401976",
+      "title": "API testing rocks!"
+    },
+    {
+      "id": "756c1410-de7b-44e0-b0a1-bbf5ed2cb48e",
+      "title": "API testing rocks!"
+    },
+    {
+      "id": "e7fb74bc-eb65-49c5-a21d-bf1943c741e3",
+      "title": "API testing rocks!"
+    }
+  ]
+}
