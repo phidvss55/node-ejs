@@ -78,9 +78,6 @@ describe('GET /airports', function() {
 
     console.log('requests', requests);
 
-    // requests.forEach(e => {
-    //   console.log(e.body.data);
-    // });
 
     console.log('length', requests.length);
     done();
