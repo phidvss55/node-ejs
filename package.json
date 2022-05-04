@@ -1,10 +1,12 @@
 {
   "name": "node-advanced",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project was created for learning nodejs path;",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "node index.js",
+    "start": "nodemon ./index.js --exec babel-node -e js",
     "serve": "nodemon --ignore feedback.json index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +14,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.17.3",
-    "nodemon": "^2.0.15"
-  }
+    "mongoose": "^6.3.2",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phidvss55/node-ejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phidvss55/node-ejs/issues"
+  },
+  "homepage": "https://github.com/phidvss55/node-ejs#readme"
 }
